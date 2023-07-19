@@ -1,0 +1,10 @@
+@media screen and (min-width:426px) and (max-width:768px) {
+    .logo-container{
+        justify-content: center;
+        border-left: 100px;
+    }
+    .vars-game-sec{
+        justify-content: center;
+        border-left: 500px;
+    }
+}

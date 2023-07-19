@@ -1,0 +1,111 @@
+@media screen and (max-width: 425px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: center;
+  }
+  .nav-item a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .banner-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bnr-left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .bnr-img-18 {
+    justify-content: center;
+    width: 390px;
+    border: 2px solid red;
+    /* margin-left: 5px; */
+    margin-top: 20px;
+  }
+  .og-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .og-flex-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .play-instant-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .pis-description {
+    font-size: 15px;
+    border: none;
+    box-sizing: content-box;
+  }
+  .PI {
+    font-size: 30px;
+    line-height: 10px;
+  }
+  .pis-p1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .pis-p2 {
+    font-size: 12px;
+    flex-wrap: wrap;
+    line-height: 10px;
+  }
+  .pis-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .big-pic,
+  .sml-pic {
+    width: 70%;
+    margin-left: 90px;
+  }
+  .sml-pic {
+    margin-top: -107px;
+    margin-left: 6px;
+    height: 166px;
+    width: 166px;
+  }
+  .vars-game-sec {
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .nine-flex-item {
+    display: grid;
+    grid-template-columns: repeat(3, 105px);
+    margin: 0 auto;
+  }
+  .flex-text {
+    font-size: 8px;
+  }
+  .flex-img-one {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .flex-container-one {
+    width: 40px;
+    height: 40px;
+    gap: 5px;
+    align-items: center;
+    display: flex;
+  }
+  .icon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    padding-left: 60px;
+  }
+  .ft-item-one{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+  }
+ 
+}
